@@ -1,4 +1,5 @@
 import { type Message as TMessage} from "ai/react"
+import { Message } from "./Message"
 
 interface MessagesProps {
     messages: TMessage[]

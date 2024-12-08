@@ -1,6 +1,7 @@
 "use client"
 
 import { useChat } from "ai/react"
+import { Messages } from "./Messages"
 
 export const ChatWrapper = ({sessionId}: {sessionId: string}) => {
     const { messages, handleInputChange, handleSubmit , input } = useChat({
