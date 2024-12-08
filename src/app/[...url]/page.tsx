@@ -33,7 +33,7 @@ const page = async ( { params } : PageProps) => {
     }
 
   return (
-    <ChatWrapper />
+    <ChatWrapper sessionId={sessionId} />
   )
 }
 
